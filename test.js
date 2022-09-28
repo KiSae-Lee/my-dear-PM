@@ -114,6 +114,7 @@ function handleCopy() {
 window.addEventListener("resize", handleWindowResize);
 window.addEventListener("copy", handleCopy);
 
+// some logs.
 console.log("app.js start!");
 console.log(UNDEFINED);
 console.log(daysOfWeek);
