@@ -7,22 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Integrating CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Momentum</title>
 </head>
 
 <body>
-    <!--Login panel-->
+    <!--clock-->
+    <h2 id="clock">00:00</h2>
+
+    <!--Login-->
     <form id="login-form">
         <input required maxlength="15" minlength="2" minlengtype="text" placeholder="What is your name?" />
         <button>Login</button>
     </form>
     <h1 id="greeting" class="hidden"></h1>
+
     <!--anchor-->
     <a id="github" href="https://github.com/KiSae-Lee">Creator</a>
+
     <!--Integrating Java Script-->
-    <script src="app.js"></script>
+    <script src="javascript/login.js"></script>
+    <script src="javascript/clock.js"></script>
 </body>
 
 </html>
